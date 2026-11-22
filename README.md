@@ -93,7 +93,7 @@ Calendários novos dos tribunais e melhorias chegam sozinhos, uma vez por dia. C
 
 ## Do que você precisa
 
-- Windows 10 ou 11 e Google Chrome
+- Windows 11 e Google Chrome (no Windows 10 o programa pode funcionar, mas não tem suporte)
 - Assinatura **Claude Pro** com o Claude Code instalado (é ele que lê as publicações)
 - Computador ligado no horário da consulta. Se estiver desligado, a consulta roda quando você ligar.
 
