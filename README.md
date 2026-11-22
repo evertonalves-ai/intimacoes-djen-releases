@@ -4,7 +4,7 @@
 
 ### Suas intimações do DJEN chegam sozinhas, com o prazo calculado, num painel ao lado do Chrome.
 
-Você abre o navegador de manhã e as publicações do dia já estão lá, separadas entre o que exige prazo e o que é só ciência. Um clique agenda.
+Você abre o navegador de manhã e as publicações do dia já estão lá, com a sugestão de prazo para cada uma. Você confere e agenda com um clique.
 
 <img src="imagens/1-decidir.png" alt="Painel com as intimações do dia para decidir" width="320">
 &nbsp;&nbsp;&nbsp;
@@ -21,8 +21,8 @@ Você abre o navegador de manhã e as publicações do dia já estão lá, separ
 | Horário | O que acontece |
 |---|---|
 | **5h da manhã** (você escolhe) | O programa consulta o DJEN pelo seu número de OAB e baixa as publicações novas. |
-| **Logo em seguida** | O Claude lê cada uma e diz se exige prazo, qual ato praticar e quantos dias. O vencimento é calculado no calendário do tribunal que publicou. |
-| **Quando você abre o Chrome** | O ícone mostra quantas intimações esperam decisão. Você agenda, ajusta a data ou marca como sem prazo. |
+| **Logo em seguida** | O Claude lê cada uma e **sugere** se exige prazo, qual ato praticar e quantos dias. O vencimento é calculado no calendário do tribunal que publicou. |
+| **Quando você abre o Chrome** | O ícone mostra quantas intimações esperam a sua decisão. Você confere, agenda, ajusta a data ou marca como sem prazo. |
 | **Ao agendar** | O prazo vai para o seu Google Agenda, com lembrete 2 dias antes. |
 
 ## O que você vê no painel
@@ -33,7 +33,7 @@ Você abre o navegador de manhã e as publicações do dia já estão lá, separ
 
 **Decide com um clique, e pode desfazer**
 
-Cada cartão mostra a data, quanto falta, o ato e por que o Claude chegou àquela conclusão. Agendou por engano? O aviso embaixo tem "Desfazer".
+Cada cartão mostra a data sugerida, quanto falta, o ato e por que o Claude chegou àquela sugestão. Agendou por engano? O aviso embaixo tem "Desfazer".
 
 <img src="imagens/2-agendar.png" alt="Aviso de prazo agendado também no Google Agenda, com opção de desfazer" width="100%">
 
@@ -78,7 +78,8 @@ O que você marcou como sem prazo fica no Histórico por 60 dias, com "Voltar pa
 - **Calendário de cada tribunal.** O programa usa os dias sem expediente que o próprio tribunal fixa em portaria, como Cinzas, Semana Santa, Dia do Servidor e feriados transferidos, além dos feriados da sua comarca.
 - **Ele avisa quando não sabe.** Se o calendário de um tribunal ainda não foi cadastrado, o cartão diz isso e pede conferência, em vez de chutar.
 - **Na dúvida, mais cedo.** Quando o programa fica em dúvida sobre um dia, ele o trata como útil. O vencimento pode sair um dia antes, nunca um dia depois.
-- **O Claude não descarta à toa.** Uma publicação só vai direto para "sem prazo" quando o Claude tem confiança alta. Nas outras, ele explica a dúvida e você decide.
+- **Nada é descartado sem você.** Toda publicação passa pelo painel, inclusive as que o Claude acha que são só ciência. Quando ele fica em dúvida, explica o motivo no cartão.
+- **Prazo em dobro e dias corridos com aviso.** Quando a triagem sugere prazo em dobro, ou contagem em dias corridos (processo penal), o cartão avisa para você conferir.
 
 > A classificação é feita por inteligência artificial e o cálculo é um auxílio. A conferência do prazo antes do protocolo continua sendo do advogado.
 
